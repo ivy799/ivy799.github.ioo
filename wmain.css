@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(20, 20, 20);
+}
+
+.header {
+    display: flex;
+    background: rgb(55, 106, 216);
+    background-color: rgb(217, 248, 42);
+    flex-direction: row;
+    border-bottom-left-radius: 50px ;
+    border-bottom-right-radius: 300px;
+    width: 95%;
+}
+
+.logo1 {
+    margin-right: 20px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+}
+
+.logo1 > h1 {
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.text {
+    margin-top: 140px;
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+}
+
+.maintext {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    margin-bottom: -40px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 40px;
+    padding: 2px;
+    background-color: rgb(217, 248, 42);
+    border-radius: 50px;
+    border-style: solid;
+    border-width: 1px;
+    
+}
+
+.button > h3 {
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 55px;
+    width: 400px;
+}
+
+.navbar > h2 {
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.image1 > img {
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 50px ;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main > .maintext2 > h1 {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+
+.main > .galery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 20px;
+    row-gap: 20px;
+
+    width: 105%;
+}
+
+.main > .galery > .imggalery {
+    display: flex;
+    padding: 10px;
+    column-gap: 80px;
+    
+}
+
+.main > .galery > .imggalery > .imagee {
+    padding: 10px;
+    background-color: rgb(213, 250, 50);
+    padding-bottom: 100px;
+    border-radius: 8px;
+}
+
+
+.main > .galery > .imggalery > .imagee > img {
+    width: 300px;
+    height: 150px;
+    background-color: rgb(190, 185, 185);
+    border-radius: 8px ;
+}
+
+
+
+
+
+
